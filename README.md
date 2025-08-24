@@ -1,16 +1,6 @@
-# calculator
+# Calculator App With Flutter !
 
-A new Flutter project.
+I made Calculator App Using bloc state mangment and sqflite to save history 
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+main screen 👇🏼
+![main_screen_screenshot](images/ScreenRecording1447-03-01at7.53.40PM-ezgif.com-video-to-gif-converter.gif)
