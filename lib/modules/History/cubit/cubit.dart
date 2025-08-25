@@ -10,7 +10,7 @@ class HistoryCubit extends Cubit<HistoryStates>{
   List<Map> groupedHistory = [];
 
   getData()async{
-     List<Map> data = await mydb.readData('SELECT * FROM calculator_history');
+     List<Map> data = await mydb.readData('SELECT * FROM calculator_history ORDER BY id DESC');
      bool found = false;
      for(var item in data){
        for(var item2 in groupedHistory){
@@ -29,7 +29,6 @@ class HistoryCubit extends Cubit<HistoryStates>{
          });
        }
      }
-     print(groupedHistory);
      emit(HistoryGetDataState());
   }
   deleteAllHistory()async{
